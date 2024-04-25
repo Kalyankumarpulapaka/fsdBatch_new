@@ -1,7 +1,9 @@
 const App=()=>{
+  console.log("hello  users ")
+  const now= new Date();
   return(
     <div>
-      <h1>Hello World</h1>
+      <p>Hello World now the date is {now.toString()}</p>
     </div>
     )
 }
