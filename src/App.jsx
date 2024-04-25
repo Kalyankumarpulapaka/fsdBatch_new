@@ -1,10 +1,14 @@
+import Hello from "./own_components/Hello";
+import Sign from "./own_components/Sign";
+
 const App=()=>{
-  console.log("hello  users ")
-  const now= new Date();
-  return(
+return (
     <div>
-      <p>Hello World now the date is {now.toString()}</p>
+        <h1>Greetings :</h1>
+        <Hello/>
+        <Sign/>
+        <Hello/>
     </div>
-    )
+)
 }
 export default App;
