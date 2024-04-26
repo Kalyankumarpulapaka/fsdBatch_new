@@ -5,9 +5,9 @@ const App=()=>{
 return (
     <div>
         <h1>Greetings :</h1>
-        <Hello/>
-        <Sign/>
-        <Hello/>
+        <Hello name="Rushi n0-1"/>
+        <Sign name="Madhan no-2"/>
+        <Hello name="karun no-3"/>
     </div>
 )
 }

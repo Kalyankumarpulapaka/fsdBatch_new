@@ -1,6 +1,7 @@
-const Sign=()=>{
+const Sign=(props)=>{
+    console.log(props)
     return (
-        <p>Please Sign Up Here</p>
+        <p>{props.name }Please Sign Up Here</p>
     )
  }
 export default Sign;
